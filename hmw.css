@@ -13,30 +13,39 @@ body{
     background-image: url('http://www.clker.com/cliparts/K/C/r/p/W/o/grey-oak-tree-hi.png');
     background-repeat: no-repeat;
     background-color: black;
+    background-attachment: fixed;
+    background-position: top left;
     color: azure;
+    overflow-y: scroll;
 }
 
 #firstPar{
     text-align: center;
-    padding-left: 15cm;
-    padding-right: 10cm;
+    font-size: 20px;
+    padding-left: 600px;
+    padding-right: 300px;
     margin-top: 2cm;
     text-align: justify;
+    text-align-last: right;
+    text-indent: 50px;
+    letter-spacing: 3px;
 }
 
 #secondPar{
     text-align: center;
-    padding-left: 15cm;
-    padding-right: 10cm;
+    font-size: 25px;
+    padding-left: 600px;
+    padding-right: 300px;
     margin-top: 1cm; 
     text-align: justify;
+    text-align-last: left;
 }
 
 #secondParOne{
     color: black;
     text-align: center;
-    padding-left: 15cm;
-    padding-right: 10cm;
+    padding-left: 600px;
+    padding-right: 300px;
     margin-top: 1cm; 
     text-align: justify;
 }
@@ -44,8 +53,18 @@ body{
 #thirdPar{
     text-decoration-style: wavy;
     text-align: center;
-    padding-left: 10cm;
-    padding-right: 10cm;
+    padding-left: 400px;
+    padding-right: 500px;
     text-align: justify;
     text-shadow: 2px 2px #ff0000;
 }
+
+#fourthPar{
+    color: yellow;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 600px;
+    margin-top: 1cm; 
+    text-align: justify;
+}
+
